@@ -1,0 +1,55 @@
+
+header {
+    background-color: lightcoral;
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black, 0 0 50px pink, 0 0 15px red;
+}
+
+/*ตกแต่ง footer โดยรวม*/
+.footer-distributed{
+	background-color: indianred;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+.footer-distributed.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none ;
+	color:  inherit;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 40px;
+  text-align: center;
+  table-layout: center;
+}
+form {
+text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.center{
+  margin: auto;
+  width: 5%;
+}

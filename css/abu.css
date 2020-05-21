@@ -1,0 +1,54 @@
+body {
+    background-color: mistyrose;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightcoral;
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black, 0 0 50px pink, 0 0 15px red;
+}
+.container {
+    text-align: center;
+    background-color:gainsboro;
+    padding: 10px;
+    margin:10px;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.ch {
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+}
+#self{
+  width:80%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*กำหนด Breakpoint*/
+@media only screen and (max-width:600px){
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div[class*='container']{
+    width: 100%;
+  }
+}
+div[class*=' l']{
+  background-color:gold;
+}
+div[class*=' r']{
+background-color:darkolivegreen;
+}
